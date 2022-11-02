@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir o texto digitado na caixa </title>
+    <!-- JS-->
+    <script>
+        function exibir(){
+
+            //obter o valor do campo de texto
+            var campo = document.getElementById("campo").value;
+
+            //Exibir o campo
+            alert(campo);
+         }
+    </script>
+</head>
+<body>
+    <input type="text" id="campo" onkeyup="exibir()">
+</body>
+</html>
